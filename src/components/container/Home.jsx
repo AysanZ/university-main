@@ -23,14 +23,15 @@ const Home = () => {
   };
   return (
     <div className="section" id="home">
-      <div className="md:flex items-center justify-center">
+      <div className="md:flex items-center justify-between">
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
             {" "}
             your e-learning partner
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            The <span className="text-Teal">Future</span> Of <br /> Education Is Here! 
+            The <span className="text-Teal">Future</span> Of <br /> Education Is
+            Here!
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
@@ -45,17 +46,17 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-[60%]">
+        <div className="md:w-[60%] mt-8 ml-4">
           <img src={hero} alt="" />
         </div>
       </div>
       <div>
         <br />
-        <br /><br />
+
         <p className="text-center text-xl">
           We collaborate with{" "}
           <span className="text-Teal">
-            100+ leading universities ans companies
+            100+ leading universities and companies
           </span>
         </p>
         <motion.div
