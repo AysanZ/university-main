@@ -13,7 +13,7 @@ module.exports = {
         Teal: "#735688",
         HummingBird: "#A18EAF",
         yellow: "#e4d63b",
-        Solitude: "#EFEEEC",
+        Solitude: "#F5F5F5",
         gray: "#4B4B4C"
       },
       animation: {
