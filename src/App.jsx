@@ -1,23 +1,15 @@
-import {
-  Navbar,
-  Home,
-  About,
-  Teacher,
-  Contact,
-  Courses,
-  Footer,
-} from "./components/index";
+
+import {Routes, Route} from 'react-router-dom'
+import Main from './components/Main'
+import Login from './components/Login/Login'
 
 function App() {
   return (
-    <div className="font-Poppins bg-Solitude">
-      <Navbar />
-      <Home />
-      <About />
-      <Courses />
-      <Teacher />
-      <Contact />
-      <Footer />
+    <div>
+      <Routes>
+        <Route path="/" element={<Main/>}/>
+        <Route path="/login" element={<Login/>}/>
+      </Routes>
     </div>
   );
 }

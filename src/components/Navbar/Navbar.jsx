@@ -4,6 +4,7 @@ import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
 import { motion } from "framer-motion";
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
@@ -40,9 +41,11 @@ const Navbar = () => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
-            Login
-          </button>
+          <Link to="/login" >
+            <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
+              Login
+            </button>
+          </Link>
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}
