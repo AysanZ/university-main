@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./Login.module.css";
+import "./Login.css";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
 
@@ -7,7 +7,7 @@ const Login = () => {
   const theme = {
     width: "300px",
     "& .MuiInputBase-root": {
-      color: "white",
+      color: "black",
     },
 
     "& .MuiInputLabel-root": { color: "#6C47A9" },
@@ -49,9 +49,98 @@ const Login = () => {
   }
 
   return (
-    <div className={css.wrapper}>
-      <div className={css.container}>
-        <div className={css.img}>
+    <div class="container">
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="circles">
+        <div class="circle"></div>
+      </div>
+      <div class="glass">
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+        <div class="layer"></div>
+      </div>
+
+      <div className="form">
+        <div className="img">
           <img src="../../../public/logo.png" alt="" />
         </div>
         <div>
@@ -79,7 +168,7 @@ const Login = () => {
           />
         </div>
 
-        <button className={css.btn} onClick={handleSubmit}>
+        <button className="btn" onClick={handleSubmit}>
           Login
         </button>
 
