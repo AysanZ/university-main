@@ -1,5 +1,5 @@
 import React from "react";
-import "./Login.css";
+import css from "./Login.module.css";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
 
@@ -49,98 +49,98 @@ const Login = () => {
   }
 
   return (
-    <div class="container">
-      <div class="circles">
-        <div class="circle"></div>
+    <div class={css.container}>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="circles">
-        <div class="circle"></div>
+      <div class={css.circles}>
+        <div class={css.circle}></div>
       </div>
-      <div class="glass">
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
-        <div class="layer"></div>
+      <div class={css.glass}>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
+        <div class={css.layer}></div>
       </div>
 
-      <div className="form">
-        <div className="img">
+      <div className={css.form}>
+        <div className={css.img}>
           <img src="../../../public/logo.png" alt="" />
         </div>
         <div>
@@ -168,7 +168,7 @@ const Login = () => {
           />
         </div>
 
-        <button className="btn" onClick={handleSubmit}>
+        <button className={css.btn} onClick={handleSubmit}>
           Login
         </button>
 
